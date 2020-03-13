@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+}
+hr{
+    color: teal;
+    border-top: 6px dotted red;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.temp{
+    min-height: 100vh;
+}
+
+.navbar-custom {
+    color: #FFFFFF;
+    /* background-color: black; */
+}
+.navbar > h3{
+    color: white;
+}
+
+.navbar img{
+    margin-top: 5px;
+}
+
+li .active, .active{
+    background-color: white;
+}
+
+nav li{
+    border-radius: 10%;
+}
+
+#home{
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.home_title{
+    max-width: 100%;
+    padding-top: 10%;
+    font-size: 80px;
+}
+.home_topic{
+    max-width: 100%;
+    font-size: 60px;
+    color: white;
+}
+.home_topic .small_span{
+    max-width: 100%;
+    font-size: 20px;
+}
+#about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Amaranth', sans-serif;
+}
