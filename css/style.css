@@ -2,14 +2,18 @@ body{
     background-color: white;
 }
 hr{
-    color: teal;
     border-top: 6px dotted red;
 }
 
 canvas {
 	position: absolute;
 	top: 0;
-	left: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar-toggler{
+    background: white;
 }
 
 .temp{
@@ -39,19 +43,23 @@ nav li{
 #home{
     max-width: 100%;
     min-height: 100vh;
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
 }
 
 .home_title{
     max-width: 100%;
     padding-top: 10%;
-    font-size: 80px;
+    font-size: 70px;
+    color: white;
 }
 .home_topic{
     max-width: 100%;
     font-size: 60px;
     color: white;
 }
-.home_topic .small_span{
+.small_span{
     max-width: 100%;
     font-size: 20px;
 }
@@ -59,4 +67,43 @@ nav li{
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: 'Amaranth', sans-serif;
+}
+
+#gallery .section-title, #about .section-title, #speakers .section-title, #schedule .section-title, #register .section-title, #contact .section-title{
+    color: #24b8ff;
+}
+
+#speakers .card{
+    margin: 15px;
+}
+
+.schedule-tabs li{
+    margin: 10px;
+}
+
+#contact{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#register{
+    background-image: url(../img/reg.png);
+    background-size: cover;
+}
+
+.registration-card{
+    border: 1px solid black;
+    border-radius: 1%;
+    padding: 30px;
+    background-color: white;
+    margin: 25px;
+    margin-bottom: 40px;
+}
+
+.registration-card hr{
+    border-top: 2px dashed  #24b8ff;
+}
+
+.registeration-title{
+    color: #24b8ff;
 }

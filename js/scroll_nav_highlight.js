@@ -12,37 +12,37 @@ $(document).ready(function () {
         if (top < divH1) {
             $("a").removeClass('active');
             $("#nav-item-1").addClass('active');
-            console.log("inside section 1, home");
+            // console.log("inside section 1, home");
         }
         if (top >= divH2 && top < divH3) {
             $("a").removeClass('active');
             $("#nav-item-2").addClass('active');
-            console.log("inside section 2, about");
+            // console.log("inside section 2, about");
         }
         if (top >= divH3 && top < divH4) {
             $("a").removeClass('active');
             $("#nav-item-3").addClass('active');
-            console.log("inside section 3, gallery");
+            // console.log("inside section 3, gallery");
         }
         if (top >= divH4 && top < divH5) {
             $("a").removeClass('active');
             $("#nav-item-4").addClass('active');
-            console.log("inside section 4, speakrs");
+            // console.log("inside section 4, speakrs");
         }
         if (top >= divH5 && top < divH6) {
             $("a").removeClass('active');
             $("#nav-item-5").addClass('active');
-            console.log("inside section 5, shceduel");
+            // console.log("inside section 5, shceduel");
         }
         if (top >= divH6 && top < divH7) {
             $("a").removeClass('active');
             $("#nav-item-6").addClass('active');
-            console.log("inside section 6, register");
+            // console.log("inside section 6, register");
         }
         if (top >= divH7 ) {
             $("a").removeClass('active');
             $("#nav-item-7").addClass('active');
-            console.log("inside section 7, contact");
+            // console.log("inside section 7, contact");
         }
     });
 });
