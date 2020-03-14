@@ -12,6 +12,8 @@ canvas {
     z-index: -1;
 }
 
+/* Navbar */
+
 .navbar-toggler{
     background: white;
 }
@@ -39,7 +41,9 @@ li .active, .active{
 nav li{
     border-radius: 10%;
 }
+/* Navbar ends */
 
+/* Home starts */
 #home{
     max-width: 100%;
     min-height: 100vh;
@@ -63,32 +67,50 @@ nav li{
     max-width: 100%;
     font-size: 20px;
 }
+/* Home ends */
+
+/* About starts */
 #about{
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: 'Amaranth', sans-serif;
 }
+/* About ends */
 
+/* Gallery starts */
 #gallery .section-title, #about .section-title, #speakers .section-title, #schedule .section-title, #register .section-title, #contact .section-title{
     color: #24b8ff;
 }
+/* Gallery ends */
 
+/* Speakers Start */
 #speakers .card{
     margin: 15px;
+}
+/* Speakers end */
+
+/* schedule start */
+#schedule{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+#schedule .tab-content h5{
+    margin-top: 2%;
 }
 
 .schedule-tabs li{
     margin: 10px;
 }
+/* schedule end */
 
-#contact{
-    padding: 20px;
-    margin-bottom: 50px;
-}
-
+/* register start */
 #register{
     background-image: url(../img/reg.png);
     background-size: cover;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .registration-card{
@@ -107,3 +129,11 @@ nav li{
 .registeration-title{
     color: #24b8ff;
 }
+/* Register end */
+
+/* Contact */
+#contact{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+/* end of contact */
