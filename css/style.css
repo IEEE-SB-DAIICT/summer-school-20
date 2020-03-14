@@ -111,6 +111,9 @@ nav li {
 #schedule .tab-content h5 {
   margin-top: 2%;
 }
+.tab-pane {
+  margin-left: 1em;
+}
 
 .schedule-tabs li {
   margin: 10px;
