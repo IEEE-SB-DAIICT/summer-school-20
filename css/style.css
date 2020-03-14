@@ -13,12 +13,10 @@ canvas {
 }
 
 /* Navbar */
-.navbar {
-  background-color: rgb(0, 0, 0) !important;
-}
-@media (min-width: 576px) {
+
+@media (max-width: 576px) {
   .navbar {
-    background-color: transparent !important;
+    background-color: black !important;
   }
 }
 
@@ -49,6 +47,7 @@ li .active,
 
 nav li {
   border-radius: 10%;
+  text-align: center;
 }
 /* Navbar ends */
 
