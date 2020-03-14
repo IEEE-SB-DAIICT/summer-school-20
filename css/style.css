@@ -1,139 +1,145 @@
-body{
-    background-color: white;
+body {
+  background-color: white;
 }
-hr{
-    border-top: 6px dotted red;
+hr {
+  border-top: 6px dotted red;
 }
 
 canvas {
-	position: absolute;
-	top: 0;
-    left: 0;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 /* Navbar */
 
-.navbar-toggler{
-    background: white;
+.navbar-toggler {
+  background: white;
 }
 
-.temp{
-    min-height: 100vh;
+.temp {
+  min-height: 100vh;
 }
 
 .navbar-custom {
-    color: #FFFFFF;
-    /* background-color: black; */
+  color: #ffffff;
+  /* background-color: black; */
 }
-.navbar > h3{
-    color: white;
-}
-
-.navbar img{
-    margin-top: 5px;
+.navbar > h3 {
+  color: white;
 }
 
-li .active, .active{
-    background-color: white;
+.navbar img {
+  margin-top: 5px;
 }
 
-nav li{
-    border-radius: 10%;
+li .active,
+.active {
+  background-color: white;
+}
+
+nav li {
+  border-radius: 10%;
 }
 /* Navbar ends */
 
 /* Home starts */
-#home{
-    max-width: 100%;
-    min-height: 100vh;
-    color: white;
-    margin-top: 30px;
-    font-size: 40px;
+#home {
+  max-width: 100%;
+  min-height: 100vh;
+  color: white;
+  margin-top: 30px;
+  font-size: 40px;
 }
 
-.home_title{
-    max-width: 100%;
-    padding-top: 10%;
-    font-size: 70px;
-    color: white;
+.home_title {
+  max-width: 100%;
+  padding-top: 10%;
+  font-size: 70px;
+  color: white;
 }
-.home_topic{
-    max-width: 100%;
-    font-size: 60px;
-    color: white;
+.home_topic {
+  max-width: 100%;
+  font-size: 60px;
+  color: white;
 }
-.small_span{
-    max-width: 100%;
-    font-size: 20px;
+.small_span {
+  max-width: 100%;
+  font-size: 20px;
 }
 /* Home ends */
 
 /* About starts */
-#about{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Amaranth', sans-serif;
+#about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Amaranth", sans-serif;
 }
 /* About ends */
 
 /* Gallery starts */
-#gallery .section-title, #about .section-title, #speakers .section-title, #schedule .section-title, #register .section-title, #contact .section-title{
-    color: #24b8ff;
+#gallery .section-title,
+#about .section-title,
+#speakers .section-title,
+#schedule .section-title,
+#register .section-title,
+#contact .section-title {
+  color: #24b8ff;
 }
 /* Gallery ends */
 
 /* Speakers Start */
-#speakers .card{
-    margin: 15px;
+#speakers .card {
+  margin: 15px;
 }
 /* Speakers end */
 
 /* schedule start */
-#schedule{
-    padding-top: 2%;
-    padding-bottom: 5%;
+#schedule {
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
 
-#schedule .tab-content h5{
-    margin-top: 2%;
+#schedule .tab-content h5 {
+  margin-top: 2%;
 }
 
-.schedule-tabs li{
-    margin: 10px;
+.schedule-tabs li {
+  margin: 10px;
 }
 /* schedule end */
 
 /* register start */
-#register{
-    background-image: url(../img/reg.png);
-    background-size: cover;
-    position: relative;
-    padding-top: 3%;
-    padding-bottom: 3%;
+#register {
+  background-image: url(../img/reg.png);
+  background-size: cover;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
-.registration-card{
-    border: 1px solid black;
-    border-radius: 1%;
-    padding: 30px;
-    background-color: white;
-    margin: 25px;
-    margin-bottom: 40px;
+.registration-card {
+  border: 1px solid black;
+  border-radius: 1%;
+  padding: 30px;
+  background-color: white;
+  margin: 25px;
+  margin-bottom: 40px;
 }
 
-.registration-card hr{
-    border-top: 2px dashed  #24b8ff;
+.registration-card hr {
+  border-top: 2px dashed #24b8ff;
 }
 
-.registeration-title{
-    color: #24b8ff;
+.registeration-title {
+  color: #24b8ff;
 }
 /* Register end */
 
 /* Contact */
-#contact{
-    padding: 20px;
-    margin-bottom: 50px;
+#contact {
+  padding: 20px;
+  margin-bottom: 50px;
 }
 /* end of contact */
